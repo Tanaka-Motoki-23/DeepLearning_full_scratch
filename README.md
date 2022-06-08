@@ -231,6 +231,5 @@ trainとtestに対する精度を出力する。
 ```
 NumberFormat nfPer = NumberFormat.getPercentInstance();
 System.out.println("train accuracy = " + nfPer.format(network.calcDatasetAccuracy(trainDataset, batchSize)));
-
 System.out.println("test accuracy = " + nfPer.format(network.calcDatasetAccuracy(testDataset, batchSize)));
 ```
