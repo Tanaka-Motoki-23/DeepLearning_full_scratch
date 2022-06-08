@@ -173,7 +173,7 @@ public void gradient(LinerArray x, ArrayList<LinerArray> t) {
 
 	}
 ```
-gradientDescent()で勾配計算とパラメータの更新方法を定義する。
+gradientDescent()に勾配計算とパラメータの更新方法を定義する。
 ```
 @Override
 public void gradientDescent(LinerArray xBatch, ArrayList<LinerArray> tBatch, int stepNum) {
