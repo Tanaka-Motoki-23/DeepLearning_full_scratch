@@ -88,7 +88,7 @@ MnistNet.java
 main.java
 ```
 
-##ニューラルネットワーク作成例
+## ニューラルネットワーク作成例
 NetworkWithBackPropagationを継承したモデル用クラスを作成し、利用するレイヤーを宣言する。
 ```
 public class MnistNet extends NetworkWithBackPropagation{
@@ -211,7 +211,7 @@ public LinerArray predict(LinerArray X) {
 }
 ```
 
-##ニューラルネットワーク学習・推論例
+## ニューラルネットワーク学習・推論例
 
 データセットを作成する。
 ```
