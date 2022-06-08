@@ -10,12 +10,12 @@ public class Main {
 		MnistNet network = new MnistNet(trainDataset.getImgShape(), trainDataset.getClasses());
 		network.fit(trainDataset, batchSize, 1);
 		
-		System.out.println("Calculating train accuracy...");
 		NumberFormat nfPer = NumberFormat.getPercentInstance();
-	    System.out.println("train accuracy = " + nfPer.format(network.calcDatasetAccuracy(trainDataset, batchSize)));
+		System.out.println("Calculating train accuracy...");
+	        System.out.println("train accuracy = " + nfPer.format(network.calcDatasetAccuracy(trainDataset, batchSize)));
 		
 		System.out.println("Calculating test accuracy...");
-	    System.out.println("test accuracy = " + nfPer.format(network.calcDatasetAccuracy(testDataset, batchSize)));
+	        System.out.println("test accuracy = " + nfPer.format(network.calcDatasetAccuracy(testDataset, batchSize)));
 		
 	}	
 }
