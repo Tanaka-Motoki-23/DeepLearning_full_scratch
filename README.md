@@ -224,6 +224,7 @@ MnistNet network = new MnistNet(trainDataset.getImgShape(), trainDataset.getClas
 ```
 ネットワークの学習を行う。
 ```
+int batchSize = 100;
 network.fit(trainDataset, batchSize, 1);
 ```
 trainとtestに対する精度を出力する。
