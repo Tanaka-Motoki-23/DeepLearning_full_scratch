@@ -75,7 +75,7 @@ AdaGradの実装
 ```
 AdaGrad.java
 ```
-ネットワークを作成する基礎となるクラス
+ニューラルネットワーク作成の基礎となるクラス
 ```
 NetworkWithBackPropagation.java
 ```
