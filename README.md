@@ -89,7 +89,7 @@ main.java
 ```
 
 ## ニューラルネットワーク作成例
-NetworkWithBackPropagationを継承したモデル用クラスを作成し、利用するレイヤーを宣言する。
+NetworkWithBackPropagationを継承したクラスを作成し、利用するレイヤーを宣言する。
 ```
 public class MnistNet extends NetworkWithBackPropagation{
 	private LinerArray W1, b1, W2, b2;	
