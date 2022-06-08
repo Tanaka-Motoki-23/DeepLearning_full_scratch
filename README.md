@@ -22,7 +22,7 @@ Javaを用いたニューラルネットワークのモデル実装・学習ア�
 └── Main.java
 ```
 
-## ソースコード概要
+## プログラム概要
 入力データと正解ラベルをまとめたクラス
 ```
 Data.java
@@ -46,10 +46,6 @@ Affine.java
 ReLUのレイヤー実装
 ```
 ReLU.java
-```
-Sigmoid関数のレイヤー実装
-```
-Sigmoid.java
 ```
 Sigmoid関数のレイヤー実装
 ```
